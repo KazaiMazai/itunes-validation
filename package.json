@@ -1,0 +1,27 @@
+{
+  "name": "itunes-validation",
+  "version": "0.1.0",
+  "description": "An API that connects to the App Store to validate App Store receipts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/itunes-validation.git"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "request": "^2.81.0"
+  },
+  "keywords": [
+    "Apple",
+    "iTunes",
+    "Receipt",
+    "Validation"
+  ],
+  "author": "Stuart Breckenridge",
+  "license": "MIT"
+}
