@@ -22,11 +22,8 @@ router.get('/', function (req, res) {
 
                 if (response.statusCode === 200) {
                     res.status(response.statusCode).send(response.body);
-                    console.log('200 response');
-                    console.log(body)
                 } else {
                     res.status(response.statusCode).send(response.status);
-                    console.log(body)
                 }
             }
         )
