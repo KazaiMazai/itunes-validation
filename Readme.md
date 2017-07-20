@@ -6,7 +6,7 @@ Spin up a Node app so you can validate iOS app receipts with the App Store.
 
 ### Local
 
-```
+```bash
 $ git clone https://github.com/stuartbreckenridge/itunes-validation.git
 $ cd itunes-validation
 $ npm install
@@ -39,7 +39,7 @@ The app provides two endpoints:
 
 ## In App Usage
 
-```
+```swift
 struct Receipt: Decodable {
     var receipt: [String:String]
     var status: Int
