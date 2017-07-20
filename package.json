@@ -4,7 +4,7 @@
   "description": "An API that connects to the App Store to validate App Store receipts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests.spec.js",
     "start": "node index.js"
   },
   "repository": {
@@ -23,5 +23,11 @@
     "Validation"
   ],
   "author": "Stuart Breckenridge",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "supertest": "^3.0.0"
+  }
 }
