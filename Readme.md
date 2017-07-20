@@ -7,6 +7,19 @@ Spin up a Node app so you can validate iOS app receipts with the App Store.
 ### Local
 
 ```bash
+$ mkdir myapp && cd myapp
+$ npm init // configure project
+$ npm install itunes-validation --save
+```
+
+Add `var val = require('itunes-validation');` to your `index.js` file.
+Run `npm start`.
+
+
+Or
+
+
+```bash
 $ git clone https://github.com/stuartbreckenridge/itunes-validation.git
 $ cd itunes-validation
 $ npm install
