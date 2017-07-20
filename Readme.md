@@ -13,7 +13,14 @@ $ npm install
 $ npm start
 ```
 
-###
+### Heroku
+
+1. Fork https://github.com/stuartbreckenridge/itunes-validation.git to your GitHub account
+2. Create a New App in Heroku
+3. Under Deployment Method select GitHub (connect to your GitHub account if necessary)
+4. Find the repository in the Connect to GitHub section and click Connect
+5. (Optional) Enable Automatic Deploys
+6. Click Deploy Branch
 
 
 ## API
@@ -43,7 +50,7 @@ func obfuscatedValidationMethod() {
     let receiptData = NSData(contentsOf: receiptURL!)
     let base64Receipt = receiptData?.base64EncodedString(options: .endLineWithLineFeed)
     let queryItems = [URLQueryItem(name: "receipt", value: base64Receipt)]
-    var valUrl = URLComponents(string: "<# domain #>/0.1/sandbox")
+    var valUrl = URLComponents(string: "<# https://appName.herokuapp.com #>/0.1/sandbox")
     valUrl?.queryItems = queryItems
     let request = URLRequest(url: valUrl!.url!)
 
