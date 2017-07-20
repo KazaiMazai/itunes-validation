@@ -1,6 +1,6 @@
 {
   "name": "itunes-validation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spin up a Node app to validate app receipts with the App Store.",
   "main": "index.js",
   "scripts": {
