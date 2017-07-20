@@ -13,6 +13,7 @@ $ npm install
 $ npm start
 ```
 
+###
 
 
 ## API
@@ -57,6 +58,8 @@ func obfuscatedValidationMethod() {
             if decodedReceipt.status == 1 {
                 // Do something with invalid receipt.
             }
+        } catch {
+            // Handle error.
         }
     }
 

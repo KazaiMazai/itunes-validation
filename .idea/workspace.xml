@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2203e81b-a8ab-4d72-bd59-42b4c80b4d1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/0.1/production.js" afterPath="$PROJECT_DIR$/api/0.1/production.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/0.1/sandbox.js" afterPath="$PROJECT_DIR$/api/0.1/sandbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -205,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500506211581</updated>
       <workItem from="1500506212683" duration="1256000" />
-      <workItem from="1500523497321" duration="6225000" />
+      <workItem from="1500523497321" duration="6405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7481000" />
+    <option name="totallyTimeSpent" value="7661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1400" height="905" extended-state="0" />
@@ -296,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
