@@ -13,7 +13,7 @@ $ npm install itunes-validation --save
 ```
 
 Add `var val = require('itunes-validation');` to your `index.js` file.
-Run `npm start`.
+Run `node index.js`.
 
 
 Or
