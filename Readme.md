@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/stuartbreckenridge/itunes-validation.svg?branch=master)](https://travis-ci.org/stuartbreckenridge/itunes-validation)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/95c1768c00b84055829d116521da4702)](https://www.codacy.com/app/stuart.breckenridge/itunes-validation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stuartbreckenridge/itunes-validation&amp;utm_campaign=Badge_Grade)
 
 Spin up a Node app so you can validate iOS app receipts with the App Store.
 
