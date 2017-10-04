@@ -8,7 +8,7 @@ var router = express.Router();
 router.get("/", function (req, res) {
 
     // Check for receipt data
-    if (req.query.receipt !== null) {
+    if (req.query.receipt) {
 
         var r = req.query.receipt;
         var s = req.query.secret;
